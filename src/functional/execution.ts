@@ -29,7 +29,7 @@ function tailFact() {
     return factAux(level, 1);
   }
 
-  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].forEach(level => console.log(`Tail frac: f(${level}) =`, frac(level)));
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].forEach(level => console.log(`Tail fact: f(${level}) =`, fact(level)));
 }
 
 function tailFib() {
